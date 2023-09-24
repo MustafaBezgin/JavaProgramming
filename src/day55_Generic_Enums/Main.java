@@ -14,11 +14,22 @@ public class Main {
         items.add(4);
 //      items.add("Apple");
 
-
         printDoubled(items);
 
 
+        System.out.println("\n-----------------------------------------------------------\n");
 
+
+        FootballPlayer joe = new FootballPlayer("joe");
+        BaseballPlayer pat = new BaseballPlayer("Pat");
+        SoccerPlayer beckham = new SoccerPlayer("Beckham");
+
+        Team<SoccerPlayer> liverpool = new Team("Liverpool"); //Team accepting only SoccerPlayer object
+
+
+//      liverpool.addPlayer(joe);
+//      liverpool.addPlayer(pat);
+        liverpool.addPlayer(beckham);
 
     }
 
