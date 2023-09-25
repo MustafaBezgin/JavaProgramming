@@ -1,4 +1,4 @@
-package day55_Generic_Enums;
+package day55_Generics_Enums.generics;
 
 public class SoccerPlayer extends Player{
 
