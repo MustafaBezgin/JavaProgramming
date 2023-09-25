@@ -1,4 +1,4 @@
-package day55_Generic_Enums;
+package day55_Generics_Enums;
 
 public abstract class Player {
 
