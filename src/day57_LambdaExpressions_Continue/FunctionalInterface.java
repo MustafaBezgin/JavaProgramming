@@ -40,6 +40,5 @@ public class FunctionalInterface {
         Supplier<Double> randomValue = () -> Math.random();
         System.out.println(randomValue.get());
 
-
     }
 }
