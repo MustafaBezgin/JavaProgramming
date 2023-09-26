@@ -1,4 +1,4 @@
-package day57_LambdaExpressions_Continue;
+package day57_LambdaExpressions_Continue.Tasks;
 
 import day56_Lombok_LambdaExpressions.Color;
 import lombok.AllArgsConstructor;
