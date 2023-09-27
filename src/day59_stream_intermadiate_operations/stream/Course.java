@@ -1,4 +1,4 @@
-package day58_MethodReferences_Comparator_Streams.stream;
+package day59_stream_intermadiate_operations.stream;
 
 public class Course {
 
