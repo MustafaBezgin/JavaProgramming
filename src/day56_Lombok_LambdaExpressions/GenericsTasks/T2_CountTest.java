@@ -24,5 +24,4 @@ public class T2_CountTest {
         return count;
     }
 
-
 }

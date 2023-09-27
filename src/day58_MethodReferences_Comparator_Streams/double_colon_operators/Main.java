@@ -31,7 +31,7 @@ public class Main {
         BiFunction<String, Integer, String> func2 = String::substring;
 
         Function<Integer, Double> func3 = new MyClass()::method;
-
+        System.out.println(func3.apply(5));
 
         Consumer<Integer> display = i -> System.out.println(i);
         Consumer<Integer> display2 = System.out::println;

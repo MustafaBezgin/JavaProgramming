@@ -20,6 +20,10 @@ public class CarTest {
         Function<Integer, Car> f1 = model -> new Car(model);
         Function<Integer, Car> f2 = Car::new;
 
+        Car mercedes = f2.apply(2005);
+        Car bmw = f1.apply(2012);
+        System.out.println(bmw + "\n" + mercedes.toString());
+
         // Two Arguments Constructor
         BiFunction<String, Integer, Car> f3 = (make, model) -> new Car();
         BiFunction<String, Integer, Car> f4 = Car::new;
