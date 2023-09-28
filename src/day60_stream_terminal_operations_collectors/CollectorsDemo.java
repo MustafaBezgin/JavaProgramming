@@ -39,6 +39,8 @@ public class CollectorsDemo {
                 .filter(x -> x % 2 == 0)
                 .collect(Collectors.toList());
 
+        System.out.println(numberList2);
+
 
         System.out.println("\n-----------------toSet()-----------------\n");
 
@@ -47,6 +49,8 @@ public class CollectorsDemo {
         Set<Integer> numberSet2 = numbers.stream()
                 .filter(x -> x % 2 == 0)
                 .collect(Collectors.toSet());
+
+        System.out.println(numberSet2);
 
 
         System.out.println("\n-----------------toMap(Function, Function)-----------------\n");
