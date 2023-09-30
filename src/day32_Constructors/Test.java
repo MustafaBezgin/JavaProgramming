@@ -1,7 +1,5 @@
 package day32_Constructors;
 
-import java.awt.event.MouseAdapter;
-
 public class Test {
 
     public Test() {
