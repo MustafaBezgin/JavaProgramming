@@ -1,8 +1,6 @@
 package day55_Generics_Enums.enums;
 
 
-import java.awt.desktop.AppForegroundListener;
-
 public class Main {
 
     public static void main(String[] args) {
